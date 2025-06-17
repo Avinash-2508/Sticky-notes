@@ -25,7 +25,7 @@ function saveNotes() {
 
 function loadNotes() {
     let notes = JSON.parse(localStorage.getItem("stickyNotes")) || [];
-    notes.forEach(tex => {
+    notes.forEach(text => {
         let noteContainer = document.getElementById("noteContainer");
         let note = document.createElement("div");
         note.classList.add("note");
