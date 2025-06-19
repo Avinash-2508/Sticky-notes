@@ -37,4 +37,4 @@ function loadNotes() {
     })
 }
 
-window.onload = loadNotes;
+window.onload = loadNotes
