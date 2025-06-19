@@ -18,9 +18,9 @@ function deleteNote(button) {
 function saveNotes() {
     let notes = [];
     document.querySelectorAll(".note textarea").forEach(textarea => {
-        notes.push(textarea.value);
+        notes.push(textarea.value);\
     });
-    localStorage.setItem("stickyNotes", JSON.stringify(notes));
+    localStorage.setItem("stickyNotes", JSON.stringify(notes))
 }
 
 function loadNotes() {
