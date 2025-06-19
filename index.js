@@ -32,9 +32,9 @@ function loadNotes() {
         note.innerHTML = `
             <button class="delete-btn" onclick="deleteNote(this)">X</button>
             <textarea placeholder="Write your note...">${text}</textarea>
-        `;
+        `
         noteContainer.appendChild(note)
-    });
+    })
 }
 
 window.onload = loadNotes;
