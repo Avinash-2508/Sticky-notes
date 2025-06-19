@@ -5,7 +5,7 @@ function addNote() {
     note.innerHTML = `
         <button class="delete-btn" onclick="deleteNote(this)">X</button>
         <textarea placeholder="Write your note..."></textarea>
-    `;
+    `
     noteContainer.appendChild(note)
     saveNotes()
 }
