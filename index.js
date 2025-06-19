@@ -12,11 +12,11 @@ function addNote() {
 
 function deleteNote(button) {
     button.parentElement.remove()
-    saveNotes();
+    saveNotes()
 }
 
 function saveNotes() {
-    let notes = [];
+    let notes = []
     document.querySelectorAll(".note textarea").forEach(textarea => {
         notes.push(textarea.value);\
     });
