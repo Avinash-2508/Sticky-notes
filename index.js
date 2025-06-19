@@ -27,8 +27,8 @@ function loadNotes() {
     let notes = JSON.parse(localStorage.getItem("stickyNotes")) || [];
     notes.forEach(text => {
         let noteContainer = document.getElementById("noteContainer");
-        let note = document.createElement("div");
-        note.classList.add("note");
+        let note = document.createElement("div")
+        note.classList.add("note")
         note.innerHTML = `
             <button class="delete-btn" onclick="deleteNote(this)">X</button>
             <textarea placeholder="Write your note...">${text}</textarea>
