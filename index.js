@@ -1,4 +1,4 @@
-function addNote() {
+function addNote() 
     let noteContainer = document.getElementById("noteContainer")
     let note = document.createElement("div")
     note.classList.add("note")
