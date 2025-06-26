@@ -1,6 +1,6 @@
 function addNote() {
     let noteContainer = document.getElementById("noteContainer")
-    let note = document.createElement("div")
+    let note = document.createElement("div"
     note.classList.add("note")
     note.innerHTML = `
         <button class="delete-btn" onclick="deleteNote(this)">X</button>
