@@ -1,5 +1,5 @@
 function addNote() {
-    let noteContainer = document.getElementById("noteContaine")
+    let noteContainer = document.getElementById("noteContainer")
     let note = document.createElement("div")
     note.classList.add("note")
     note.innerHTML = `
