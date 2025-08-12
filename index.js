@@ -29,7 +29,7 @@ function loadNotes() {
         let noteContainer = document.getElementById("noteContainer")
         let note = document.createElement("div")
         note.classList.add("note")
-        note.innerHTML = `
+        note.innerHTML = 
             <button class="delete-btn" onclick="deleteNote(this)">X</button>
             <textarea placeholder="Write your note...">${text}</textarea>
         `
@@ -38,3 +38,4 @@ function loadNotes() {
 }
 
 window.onload = loadNotes
+
