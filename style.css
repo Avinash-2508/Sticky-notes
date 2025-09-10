@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f7d794
+    background: #f7d794;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,4 +53,5 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
+
 
